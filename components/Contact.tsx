@@ -6,6 +6,7 @@ import { useSectionInView } from "@/lib/hooks";
 import toast from "react-hot-toast";
 import SectionHeading from "./Section-Heading";
 import { sendEmail } from "@/actions/SendEmail";
+import SubmitBtn from "./Submit-Btn";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -66,7 +67,7 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        {/* <SubmitBtn /> */}
+        <SubmitBtn />
       </form>
     </motion.section>
   );
