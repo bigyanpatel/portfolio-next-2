@@ -1,6 +1,6 @@
 import { useTheme } from "@/context/theme-context";
 import { ExperienceData } from "@/lib/types";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useInView } from "react-intersection-observer";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
@@ -10,18 +10,10 @@ type VerticalTimelineElementProps = {
 
 const VerticalTimelineComponent = ({ item }: VerticalTimelineElementProps) => {
   const { theme } = useTheme();
-
-  const [visible, setVisible] = useState(false);
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
   });
-
-  useEffect(() => {
-    if (inView) {
-      setVisible(true);
-    }
-  }, [inView]);
 
   return (
     <VerticalTimelineElement
@@ -44,7 +36,7 @@ const VerticalTimelineComponent = ({ item }: VerticalTimelineElementProps) => {
         background: theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
         fontSize: "1.5rem",
       }}
-      visible={visible}
+      visible={inView}
     >
       <h3 ref={ref} className="font-semibold capitalize">
         {item.title}
