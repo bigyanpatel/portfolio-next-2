@@ -39,6 +39,29 @@ export const experiencesData = [
       "After graduating got my first job here as a Frontend Developer. Started exploring backend and then there is no going back and eventually bacame Full stack developer handling stuffs single handedly.",
     icon: React.createElement(LuGraduationCap),
     date: "January, 2023 -  Current",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "Remote",
+    description:
+      "After graduating got my first job here as a Frontend Developer. Started exploring backend and then there is no going back and eventually bacame Full stack developer handling stuffs single handedly.",
+    icon: React.createElement(LuGraduationCap),
+    date: "January, 2023 -  Current",
+  },{
+    title: "Full Stack Developer",
+    location: "Remote",
+    description:
+      "After graduating got my first job here as a Frontend Developer. Started exploring backend and then there is no going back and eventually bacame Full stack developer handling stuffs single handedly.",
+    icon: React.createElement(LuGraduationCap),
+    date: "January, 2023 -  Current",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "Remote",
+    description:
+      "After graduating got my first job here as a Frontend Developer. Started exploring backend and then there is no going back and eventually bacame Full stack developer handling stuffs single handedly.",
+    icon: React.createElement(LuGraduationCap),
+    date: "January, 2023 -  Current",
   }
 ] as const;
 
