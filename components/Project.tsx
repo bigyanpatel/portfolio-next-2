@@ -44,6 +44,7 @@ export default function Project({
                 href={source}
                 className="px-3 py-1.5 rounded-lg bg-blue-100 hover:bg-blue-300 borderBlack"
                 title="view source"
+                target="_blank"
               >
                 <FaCode />
               </Link>
@@ -51,6 +52,7 @@ export default function Project({
                 href={demo}
                 className="px-3 py-1.5 rounded-lg bg-blue-100 hover:bg-blue-300 borderBlack"
                 title="view demo"
+                target="_blank"
               >
                 <CgWebsite />
               </Link>
