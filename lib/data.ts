@@ -64,6 +64,8 @@ export const projectsData = [
       "An e-commerce platform for books with category-based shopping, wishlist, kart, address checkout, and coupon functionality. Integrated Razorpay for payments.",
     tags: ["React", "Tailwind", "Razorpay", "Redux"],
     imageUrl: simplykart,
+    source: "https://github.com/bigyanpatel/simply-kart",
+    demo: "https://simplykart.netlify.app/"
   },
   {
     title: "SimplyTube",
@@ -71,6 +73,8 @@ export const projectsData = [
       "A video streaming platform offering book summaries. Allows users to create playlists, save videos, like content, and watch videos on dedicated pages.",
     tags: ["React", "Tailwind", "Redux"],
     imageUrl: simplytube,
+    demo: "https://simplytube.netlify.app/",
+    source: "https://github.com/bigyanpatel/simply-tube"
   },
   {
     title: "SimplyUI",
@@ -78,6 +82,8 @@ export const projectsData = [
       "A custom component library providing fundamental components essential for kickstarting web app development, complete with code snippets.",
     tags: ["HTML", "CSS"],
     imageUrl: simplyui,
+    demo: "https://simplyui.netlify.app/",
+    source: "https://github.com/bigyanpatel/Simply_UI"
   },
 ] as const;
 
