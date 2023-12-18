@@ -1,8 +1,8 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import simplykart from "@/public/simplykart.png";
+import simplytube from "@/public/simplytube.png";
+import simplyui from "@/public/Simplyui.png";
 
 export const links = [
   {
@@ -59,25 +59,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "SimplyKart",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An e-commerce platform for books with category-based shopping, wishlist, kart, address checkout, and coupon functionality. Integrated Razorpay for payments.",
+    tags: ["React", "Tailwind", "Razorpay", "Redux"],
+    imageUrl: simplykart,
   },
   {
-    title: "rmtDev",
+    title: "SimplyTube",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A video streaming platform offering book summaries. Allows users to create playlists, save videos, like content, and watch videos on dedicated pages.",
+    tags: ["React", "Tailwind", "Redux"],
+    imageUrl: simplytube,
   },
   {
-    title: "Word Analytics",
+    title: "SimplyUI",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A custom component library providing fundamental components essential for kickstarting web app development, complete with code snippets.",
+    tags: ["HTML", "CSS"],
+    imageUrl: simplyui,
   },
 ] as const;
 
