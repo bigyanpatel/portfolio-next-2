@@ -20,27 +20,27 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <div className="mb-3">
         <p>
-          Graduating with a degree in{" "}
-          <span className="font-medium">Mechanical Engineering</span>, my
-          journey into the realm of programming began during my academic years.
-          It was during this time that I discovered a profound interest in
-          frontend development, particularly in React. I embarked on crafting
-          numerous fully functional and dynamic applications, honing my skills
-          and fostering a deep passion for coding. Subsequently, I secured a
-          role as a frontend developer, gradually delving into backend
-          technologies, evolving into a proficient{" "}
-          <span className="font-medium">full-stack developer</span>
-          proficient in the MERN stack (MongoDB, Express.js, React, Node.js).
+          Hi there! I started my journey into the world of programming during my
+          academic years. What kick-started as a curious exploration eventually
+          led me to dive deep into frontend development, especially with React.
+          I&apos;ve crafted a bunch of cool and dynamic applications, refining my
+          skills and developing a genuine passion for coding.
+          <br />
+          <br />
+          Gradually, I transitioned from a frontend developer to a full-stack
+          enthusiast, exploring the intricacies of the MERN stack (MongoDB,
+          Express.js, React, Node.js). When I&apos;m not coding, you might find me
+          spending time with my family or trying to squeeze in some gaming
+          sessions when time permits (although that&apos;s a rarity these days!).
         </p>
       </div>
 
       <div>
         <p>
-          Presently, I am on a captivating journey exploring the intricacies of
-          animations and intensively focusing on enhancing my expertise in{" "}
-          <span className="font-medium">TypeScript</span>. This pursuit aligns
-          with my ongoing commitment to continuous learning and refining my
-          skills in the ever-evolving landscape of programming.
+          Currently, I&apos;m enthusiastically exploring the fascinating world of
+          animations and diving deeper into mastering TypeScript. This aligns
+          perfectly with my commitment to continuous learning and staying
+          up-to-date in the ever-evolving programming landscape.
         </p>
       </div>
     </motion.section>
