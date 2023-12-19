@@ -1,8 +1,13 @@
 import React from "react";
-import { LuGraduationCap } from "react-icons/lu";
+import { MdDynamicFeed, MdLiveTv } from "react-icons/md";
 import simplykart from "@/public/simplykart.png";
 import simplytube from "@/public/simplytube.png";
 import simplyui from "@/public/Simplyui.png";
+import { IoFileTrayFull } from "react-icons/io5";
+import { FaQuestion, FaWallet } from "react-icons/fa";
+import { IoIosNotificationsOff } from "react-icons/io";
+import { RiAdminFill } from "react-icons/ri";
+import { AiOutlineDeploymentUnit } from "react-icons/ai";
 
 export const links = [
   {
@@ -33,28 +38,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full Stack Developer",
-    location: "Remote",
+    title: "Feed Post Development",
     description:
-      "After graduating got my first job here as a Frontend Developer. Started exploring backend and then there is no going back and eventually bacame Full stack developer handling stuffs single handedly.",
-    icon: React.createElement(LuGraduationCap),
-    date: "January, 2023 -  Current",
+      "Developed a comprehensive social media feed using MERN stack, featuring likes, comments, shares, and advanced comment systems. Implemented image uploading, optimized performance, and enhanced user engagement.",
+    icon: React.createElement(MdDynamicFeed),
   },
   {
-    title: "Full Stack Developer",
-    location: "Remote",
+    title: "File System Management",
     description:
-      "After graduating got my first job here as a Frontend Developer. Started exploring backend and then there is no going back and eventually bacame Full stack developer handling stuffs single handedly.",
-    icon: React.createElement(LuGraduationCap),
-    date: "January, 2023 -  Current",
-  },{
-    title: "Full Stack Developer",
-    location: "Remote",
+      "Implemented a Node.js-based file system with structured folder arrangements and optimized image loading for enhanced site speed. Managed metadata efficiently for secure and organized data storage.",
+    icon: React.createElement(IoFileTrayFull),
+  },
+  {
+    title: "Q&A and Document Section",
     description:
-      "After graduating got my first job here as a Frontend Developer. Started exploring backend and then there is no going back and eventually bacame Full stack developer handling stuffs single handedly.",
-    icon: React.createElement(LuGraduationCap),
-    date: "January, 2023 -  Current",
-  }
+      "Developed a section for user queries and study resources, providing categorized questions, file sharing, and optimized reading experiences for documents.",
+    icon: React.createElement(FaQuestion),
+  },
+  {
+    title: "Articles and Live Session",
+    description:
+      "Built platforms for articles, live sessions, and teacher-student interactions, implementing features for content creation, categorization, and live communication.",
+    icon: React.createElement(MdLiveTv),
+  },
+  {
+    title: "Jitsi Integration and Notifications",
+    description:
+      "Integrated Jitsi for video conferencing, managed real-time notifications, and facilitated smooth in-app communication.",
+    icon: React.createElement(IoIosNotificationsOff),
+  },
+  {
+    title: "Search Functionality and Wallet Management",
+    description:
+      "Implemented global search, user wallet management, and transaction handling via PhonePe payment gateway.",
+    icon: React.createElement(FaWallet),
+  },
+  {
+    title: "Admin Panel and Profile Customization",
+    description:
+      "Developed multiple dashboards for admin management, merged database fields efficiently, and facilitated user profile customization.",
+    icon: React.createElement(RiAdminFill),
+  },
+  {
+    title: "Linux Nginx Deployment",
+    description:
+      "Deployed projects on Linux Nginx servers via SSH, developed automation scripts, and set up CI/CD pipelines using GitLab for efficient deployment workflows.",
+    icon: React.createElement(AiOutlineDeploymentUnit),
+  },
 ] as const;
 
 export const projectsData = [
@@ -65,7 +95,7 @@ export const projectsData = [
     tags: ["React", "Tailwind", "Razorpay", "Redux"],
     imageUrl: simplykart,
     source: "https://github.com/bigyanpatel/simply-kart",
-    demo: "https://simplykart.netlify.app/"
+    demo: "https://simplykart.netlify.app/",
   },
   {
     title: "SimplyTube",
@@ -74,7 +104,7 @@ export const projectsData = [
     tags: ["React", "Tailwind", "Redux"],
     imageUrl: simplytube,
     demo: "https://simplytube.netlify.app/",
-    source: "https://github.com/bigyanpatel/simply-tube"
+    source: "https://github.com/bigyanpatel/simply-tube",
   },
   {
     title: "SimplyUI",
@@ -83,7 +113,7 @@ export const projectsData = [
     tags: ["HTML", "CSS"],
     imageUrl: simplyui,
     demo: "https://simplyui.netlify.app/",
-    source: "https://github.com/bigyanpatel/Simply_UI"
+    source: "https://github.com/bigyanpatel/Simply_UI",
   },
 ] as const;
 
