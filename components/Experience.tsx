@@ -13,7 +13,7 @@ export default function Experience() {
   const { ref } = useSectionInView("Experience", 0.2);
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40 overflow-hidden">
       <SectionHeading>My experience</SectionHeading>
       <div className="text-center text-lg mb-4">
         <h2 className="text-2xl font-bold text-blue-400">
