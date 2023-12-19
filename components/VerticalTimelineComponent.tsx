@@ -30,7 +30,7 @@ const VerticalTimelineComponent = ({ item }: VerticalTimelineElementProps) => {
             ? "0.4rem solid #9ca3af"
             : "0.4rem solid rgba(255, 255, 255, 0.5)",
       }}
-      date={item.date}
+      // date={item.date}
       icon={item.icon}
       iconStyle={{
         background: theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
@@ -41,7 +41,7 @@ const VerticalTimelineComponent = ({ item }: VerticalTimelineElementProps) => {
       <h3 ref={ref} className="font-semibold capitalize">
         {item.title}
       </h3>
-      <p className="font-normal !mt-0">{item.location}</p>
+      {/* <p className="font-normal !mt-0">{item.location}</p> */}
       <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
         {item.description}
       </p>
