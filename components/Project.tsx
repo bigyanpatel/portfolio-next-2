@@ -42,7 +42,7 @@ export default function Project({
             <div className="flex items-center justify-evenly w-full my-2">
               <Link
                 href={source}
-                className="px-3 py-1.5 rounded-lg bg-blue-100 hover:bg-blue-300 borderBlack"
+                className="px-3 py-1.5 rounded-lg bg-blue-100 hover:bg-blue-300 borderBlack dark:bg-gray-400 dark:hover:bg-gray-700"
                 title="view source"
                 target="_blank"
               >
@@ -50,7 +50,7 @@ export default function Project({
               </Link>
               <Link
                 href={demo}
-                className="px-3 py-1.5 rounded-lg bg-blue-100 hover:bg-blue-300 borderBlack"
+                className="px-3 py-1.5 rounded-lg bg-blue-100 hover:bg-blue-300 borderBlack dark:bg-gray-400 dark:hover:bg-gray-700"
                 title="view demo"
                 target="_blank"
               >
