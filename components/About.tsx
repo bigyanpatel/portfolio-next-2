@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <div className="mb-3">
         <p>
-          Hi there! I started my journey into the world of programming during my
+          I started my journey into the world of programming during my
           academic years. What kick-started as a curious exploration eventually
           led me to dive deep into frontend development, especially with React.
           I&apos;ve crafted a bunch of cool and dynamic applications, refining my
